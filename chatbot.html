@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSBot</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- dependency: chat-bubble -->
+    <link rel="stylesheet" media="all" href="./js/chat-bubble/component/styles/setup.css">
+    <link rel="stylesheet" media="all" href="./js/chat-bubble/component/styles/says.css">
+    <link rel="stylesheet" media="all" href="./js/chat-bubble/component/styles/reply.css">
+    <link rel="stylesheet" media="all" href="./js/chat-bubble/component/styles/typing.css">
+    <link rel="stylesheet" media="all" href="./js/chat-bubble/component/styles/input.css">
+    <style>
+        body {
+            background: #dcdde0;
+        }
+
+        .bubble-container {
+            height: 99vh;
+        }
+
+        .bubble-container .input-wrap textarea {
+            margin: 0;
+            width: calc(100% - 30px);
+        }
+
+        textarea {
+            resize: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="chat"></div>
+
+    <script src="./js/chat-bubble/component/Bubbles.js"></script>
+    <script src="./js/logging.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./res/style/involvement.js"></script>
+    <script src="./res/style/consideration.js"></script>
+    <script src="./chatbot.js"></script>
+
+</body>
+
+</html>
